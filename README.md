@@ -25,21 +25,25 @@ Prerequisites
 
 ## Installation
 **Clone the repository**
-- git clone https://github.com/yourusername/fraud-pipeline.git
-- cd fraud-pipeline
-
+```bash
+git clone https://github.com/yourusername/fraud-pipeline.git
+cd fraud-pipeline
+```
 **Create virtual environment and install dependencies**
-- python -m venv venv
-- source venv/bin/activate
-- pip install -r requirements.txt
+```bash
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
 
 **Start infrastructure**
 ```bash
 docker-compose up -d
 ```
 **Wait for services to initialize**
+```bash
 sleep 30
-
+```
 **Initialize database**
 ```bash
  python services/database_setup.py
