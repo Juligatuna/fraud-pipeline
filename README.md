@@ -24,7 +24,6 @@ Prerequisites
 - Git
 
 ## Installation
-bash
 **Clone the repository**
 - git clone https://github.com/yourusername/fraud-pipeline.git
 - cd fraud-pipeline
@@ -35,8 +34,9 @@ bash
 - pip install -r requirements.txt
 
 **Start infrastructure**
+```bash
 docker-compose up -d
-
+```
 **Wait for services to initialize**
 sleep 30
 
@@ -47,16 +47,16 @@ sleep 30
 
 **Terminal 1 - Generate Transactions:**
 
-bash
-python simulator/producer.py
+-python simulator/producer.py
 **Terminal 2 - Real-time Fraud Detection:**
 
-bash
-**python scripts/consumer.py**
-Terminal 3 - Launch Dashboard:
+- python scripts/consumer.py
 
-bash
+**Terminal 3 - Launch Dashboard:**
+
+```bash
 streamlit run dashboard/fraud_dashboard.py --server.port 8501
+```
 **Terminal 4 - Start Airflow:**
 
 ```bash
@@ -197,16 +197,16 @@ Kafka: Broker at localhost:9093
 ```
 
 ## 🧪 Testing
-bash
- **Test database connection**
-python scripts/database_test.py
+
+**Test database connection**
+- python scripts/database_test.py
 
 **Test Kafka producer/consumer**
 - python simulator/producer.py --test
 - python scripts/consumer.py --test
 
 **Trigger Airflow pipeline manually**
-airflow dags trigger fraud_pipeline_v3
+- airflow dags trigger fraud_pipeline_v3
 ## 🤝 Contributing
 Fork the repository
 
