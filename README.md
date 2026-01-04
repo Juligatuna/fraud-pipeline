@@ -57,7 +57,7 @@ python simulator/producer.py
 ```
 **Terminal 2 - Real-time Fraud Detection:**
 ```bash
-python scripts/consumer.py
+python services/scorer.py
 ```
 **Terminal 3 - Launch Dashboard:**
 
