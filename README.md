@@ -5,15 +5,15 @@ A production-ready system for detecting fraudulent banking transactions using re
 This project simulates a complete fraud detection pipeline used by financial institutions. It generates realistic transaction data, processes it in real-time using Kafka, trains machine learning models to detect fraud, and provides monitoring through an interactive dashboard.
 
 ## 🎯 Key Features
-- `Real-time Fraud Scoring`: ML model scores transactions as they flow through Kafka
+- **Real-time Fraud Scoring:** ML model scores transactions as they flow through Kafka
 
-- `Batch ETL Processing:` Apache Airflow pipeline for data cleaning and model retraining
+- **Batch ETL Processing:** Apache Airflow pipeline for data cleaning and model retraining
 
-- `Interactive Monitoring:` Streamlit dashboard with real-time metrics and visualizations
+- **Interactive Monitoring:** Streamlit dashboard with real-time metrics and visualizations
 
-- `Data Warehouse:` PostgreSQL for historical analysis and reporting
+- **Data Warehouse:** PostgreSQL for historical analysis and reporting
 
-- `Containerized Infrastructure:` Docker Compose for Kafka, Zookeeper, and PostgreSQL
+- **Containerized Infrastructure:** Docker Compose for Kafka, Zookeeper, and PostgreSQL
 
 ## 🚀 Quick Start
 Prerequisites
