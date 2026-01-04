@@ -129,7 +129,7 @@ fraud-pipeline/
 ├── LICENSE                    # MIT License
 └── README.md                  # This file
 ```
-bash
+
 ## 🔧 Components Explained
 1. **Transaction Simulation (simulator/)**
 - generator.py: Creates realistic banking transaction data
