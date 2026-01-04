@@ -48,8 +48,8 @@ sleep 30
 ```bash
  python services/database_setup.py
  ```
-- Running the System
-## Open multiple terminal windows:
+## Running the System
+Open multiple terminal windows:
 
 **Terminal 1 - Generate Transactions:**
 ```bash
