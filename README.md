@@ -41,17 +41,20 @@ docker-compose up -d
 sleep 30
 
 **Initialize database**
-- python services/database_setup.py
+```bash
+ python services/database_setup.py
+ ```
 - Running the System
-- Open multiple terminal windows:
+## Open multiple terminal windows:
 
 **Terminal 1 - Generate Transactions:**
-
--python simulator/producer.py
+```bash
+python simulator/producer.py
+```
 **Terminal 2 - Real-time Fraud Detection:**
-
-- python scripts/consumer.py
-
+```bash
+python scripts/consumer.py
+```
 **Terminal 3 - Launch Dashboard:**
 
 ```bash
@@ -199,14 +202,19 @@ Kafka: Broker at localhost:9093
 ## 🧪 Testing
 
 **Test database connection**
-- python scripts/database_test.py
-
+ ```bash
+ python scripts/database_test.py
+```
 **Test Kafka producer/consumer**
-- python simulator/producer.py --test
-- python scripts/consumer.py --test
+```bash
+python simulator/producer.py --test
+python scripts/consumer.py --test
+```
 
 **Trigger Airflow pipeline manually**
-- airflow dags trigger fraud_pipeline_v3
+```bash
+airflow dags trigger fraud_pipeline_v3
+```
 ## 🤝 Contributing
 Fork the repository
 
