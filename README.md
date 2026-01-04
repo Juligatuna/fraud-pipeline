@@ -83,6 +83,7 @@ airflow users create \
 airflow api-server --port 8080 &
 airflow scheduler &
 ```
+## 📊 Architecture
 ```bash
 ┌─────────────────┐    ┌─────────────┐    ┌─────────────────┐
 │   Transaction   │    │   Kafka     │    │   Real-time     │
