@@ -97,8 +97,8 @@ airflow scheduler &
 │   Model Training│    │             │    │                 │
 └─────────────────┘    └─────────────┘    └─────────────────┘
 ```
+## 📁 Project Structure
 ```bash
-📁 Project Structure
 fraud-pipeline/
 ├── airflow/                    # Apache Airflow workflows
 │   └── dags/
